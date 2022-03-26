@@ -10,7 +10,7 @@ esm_sys = uname()
 esm = datetime.now()
 esm_v2 = esm.strftime("_%Y-%m-%d_%H-%M-%S")
 esm_fin = "User " + esm_sys[1] + esm_v2
-headers = {"Authorization": "Bearer ya29.A0ARrdaM8OIDeVMyfNXZxkGUkIfFDP1O-DSrJxNVcvHeTCBnvsvDS6G1DQ7ZoDtfvxHQKzysHIijosdg55J3SmC7I2jlQtYtQda9W8coL4q5_NskUnTwwZ2aky6wOt9cR4kLJAGsPffShYT7I9UzbHvUtOm62u"}
+headers = {"Authorization": "Google Drive Access TOKEN HERE"}
 para = {
         "name": esm_fin,
         "parents" : ["16sn0jHLsd_mP0Jji9iYY-XOVXD0X0Kqe"]
