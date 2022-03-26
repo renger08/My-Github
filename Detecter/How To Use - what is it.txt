@@ -1,0 +1,7 @@
+Detect Gender and Age with Python
+
+
+python [Script.py] [Image.jpg]
+
+Exm:
+    python detecter.py boicu-andrei-I4B9RGOEGO4-unsplash.jpg

@@ -1,0 +1,10 @@
+Discord Token Robber
+
+with this Script you can Still the Discord Token and Use it.
+thats token allow's you to Access to a Discord Account without Username and Password!!
+
+Be Careful and Don't Abuse this Script ( it's a Dirty Work :(  )
+
+
+Just Run the Script
+ and open the userlog.txt file to see the Token

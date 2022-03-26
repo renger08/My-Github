@@ -1,0 +1,30 @@
+POST /token HTTP/1.1
+Host: oauth2.googleapis.com
+Content-length: 261
+content-type: application/x-www-form-urlencoded
+user-agent: google-oauth-playground
+code=
+HTTP/1.1 200 OK
+Content-length: 413
+X-xss-protection: 0
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Vary: Origin, X-Origin, Referer
+Server: scaffolding on HTTPServer2
+-content-encoding: gzip
+Pragma: no-cache
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Date: Wed, 02 Feb 2022 13:01:54 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: xx=":xxx"; ma=xxx2000,h3-xx=":xxx"; ma=xxxx000,h3-Qxxx=":xxx"; ma=xxx2000,h3-Q0xx=":xxx"; ma=2xxx000,h3-Qxx3=":xxx"; ma=2xxx000,quic=":xxx"; ma=2xx2000; v="xx,xx"
+Content-type: application/json; charset=utf-8
+{
+  "access_token": "", 
+  "scope": "https://xxxxxxxxx", 
+  "token_type": "", 
+  "expires_in": xxxx, 
+  "refresh_token": ""
+}
+
+

@@ -1,0 +1,18 @@
+import tkinter
+
+root = tkinter.Tk()
+root.title("GUI")
+root.geometry("600x500")
+label1 = tkinter.Label(root, text="COD Configure", font=("Arial Bold", 20), fg="red")
+label1.grid(column=2, row=0)
+btn = tkinter.Button(root, text="Black OPS 1 Mp", bg="white", fg="black")
+btn.grid(column=0, row=1)
+btn2 = tkinter.Button(root, text="Black OPS 1 Zm", bg="white", fg="black")
+btn2.grid(column=1, row=1)
+btn3 = tkinter.Button(root, text="Black OPS 1 Sp", bg="white", fg="black")
+btn3.grid(column=2, row=1)
+btn4 = tkinter.Button(root, text="Modern Warfare 1 Mp", bg="white", fg="black")
+btn4.grid(column=3, row=2)
+btn5 = tkinter.Button(root, text="Modern Warfare 1 Sp", bg="white", fg="black")
+btn5.grid(column=4, row=2)
+root.mainloop()
